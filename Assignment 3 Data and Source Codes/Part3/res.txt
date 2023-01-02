@@ -1,0 +1,31 @@
+-----KNN-----
+Configuration 1: N=9, weights = uniform
+Mean Accuracy: 0.720, Confidence Interval: , 0.720 +/- 0.005
+Configuration 2: N=29, weights = uniform
+Mean Accuracy: 0.721, Confidence Interval: , 0.721 +/- 0.003
+Overall KNN Accuracy: 0.720, Accuracy Confidence Interval: 0.720 +/- 0.007, F1 Score: 0.823, F1 Score Confidence Interval: 0.823 +/- 0.006
+-----SVM-----
+Configuration 1: kernel = linear, C = 5
+Mean Accuracy: 0.742, Confidence Interval: , 0.742 +/- 0.008
+Configuration 2: kernel = linear, C = 500
+Mean Accuracy: 0.741, Confidence Interval: , 0.741 +/- 0.008
+Overall SVM Accuracy: 0.749, Accuracy Confidence Interval: 0.749 +/- 0.009, F1 Score: 0.828, F1 Score Confidence Interval: 0.828 +/- 0.007
+-----Decision Tree-----
+Configuration 1: criterion = entropy, max_depth = 2
+Mean Accuracy: 0.699, Confidence Interval: , 0.699 +/- 0.008
+Configuration 2: criterion = entropy, max_depth = 5
+Mean Accuracy: 0.695, Confidence Interval: , 0.695 +/- 0.008
+Overall Decision Tree Accuracy: 0.699, Accuracy Confidence Interval: 0.699 +/- 0.010, F1 Score: 0.806, F1 Score Confidence Interval: 0.806 +/- 0.009
+-----Random Forest-----
+Configuration 1: n_estimators = 100, criterion = gini
+Mean Accuracy: 0.754, Confidence Interval: , 0.754 +/- 0.002
+Configuration 2: n_estimators = 100, max_depth = entropy
+Mean Accuracy: 0.755, Confidence Interval: , 0.755 +/- 0.002
+Overall Random Forest Accuracy: 0.757, Accuracy Confidence Interval: 0.757 +/- 0.003, F1 Score: 0.841, F1 Score Confidence Interval: 0.841 +/- 0.002
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.7.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 8.7.0
+Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
+
